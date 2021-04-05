@@ -1,0 +1,16 @@
+C:\Users\sachin.saini\source\repos\ExtensionCalculator\ExtensionCalculator\bin\Debug\netcoreapp3.1\ExtensionCalculator.exe
+C:\Users\sachin.saini\source\repos\ExtensionCalculator\ExtensionCalculator\bin\Debug\netcoreapp3.1\ExtensionCalculator.deps.json
+C:\Users\sachin.saini\source\repos\ExtensionCalculator\ExtensionCalculator\bin\Debug\netcoreapp3.1\ExtensionCalculator.runtimeconfig.json
+C:\Users\sachin.saini\source\repos\ExtensionCalculator\ExtensionCalculator\bin\Debug\netcoreapp3.1\ExtensionCalculator.runtimeconfig.dev.json
+C:\Users\sachin.saini\source\repos\ExtensionCalculator\ExtensionCalculator\bin\Debug\netcoreapp3.1\ExtensionCalculator.dll
+C:\Users\sachin.saini\source\repos\ExtensionCalculator\ExtensionCalculator\bin\Debug\netcoreapp3.1\ExtensionCalculator.pdb
+C:\Users\sachin.saini\source\repos\ExtensionCalculator\ExtensionCalculator\bin\Debug\netcoreapp3.1\CalculatorLib.dll
+C:\Users\sachin.saini\source\repos\ExtensionCalculator\ExtensionCalculator\bin\Debug\netcoreapp3.1\CalculatorLib.pdb
+C:\Users\sachin.saini\source\repos\ExtensionCalculator\ExtensionCalculator\obj\Debug\netcoreapp3.1\ExtensionCalculator.csprojAssemblyReference.cache
+C:\Users\sachin.saini\source\repos\ExtensionCalculator\ExtensionCalculator\obj\Debug\netcoreapp3.1\ExtensionCalculator.AssemblyInfoInputs.cache
+C:\Users\sachin.saini\source\repos\ExtensionCalculator\ExtensionCalculator\obj\Debug\netcoreapp3.1\ExtensionCalculator.AssemblyInfo.cs
+C:\Users\sachin.saini\source\repos\ExtensionCalculator\ExtensionCalculator\obj\Debug\netcoreapp3.1\ExtensionCalculator.csproj.CoreCompileInputs.cache
+C:\Users\sachin.saini\source\repos\ExtensionCalculator\ExtensionCalculator\obj\Debug\netcoreapp3.1\ExtensionCalculator.csproj.CopyComplete
+C:\Users\sachin.saini\source\repos\ExtensionCalculator\ExtensionCalculator\obj\Debug\netcoreapp3.1\ExtensionCalculator.dll
+C:\Users\sachin.saini\source\repos\ExtensionCalculator\ExtensionCalculator\obj\Debug\netcoreapp3.1\ExtensionCalculator.pdb
+C:\Users\sachin.saini\source\repos\ExtensionCalculator\ExtensionCalculator\obj\Debug\netcoreapp3.1\ExtensionCalculator.genruntimeconfig.cache

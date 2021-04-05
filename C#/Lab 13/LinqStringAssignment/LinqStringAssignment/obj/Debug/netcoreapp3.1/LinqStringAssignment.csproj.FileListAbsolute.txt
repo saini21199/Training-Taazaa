@@ -1,0 +1,13 @@
+C:\Users\sachin.saini\source\repos\LinqStringAssignment\LinqStringAssignment\obj\Debug\netcoreapp3.1\LinqStringAssignment.csprojAssemblyReference.cache
+C:\Users\sachin.saini\source\repos\LinqStringAssignment\LinqStringAssignment\obj\Debug\netcoreapp3.1\LinqStringAssignment.AssemblyInfoInputs.cache
+C:\Users\sachin.saini\source\repos\LinqStringAssignment\LinqStringAssignment\obj\Debug\netcoreapp3.1\LinqStringAssignment.AssemblyInfo.cs
+C:\Users\sachin.saini\source\repos\LinqStringAssignment\LinqStringAssignment\obj\Debug\netcoreapp3.1\LinqStringAssignment.csproj.CoreCompileInputs.cache
+C:\Users\sachin.saini\source\repos\LinqStringAssignment\LinqStringAssignment\bin\Debug\netcoreapp3.1\LinqStringAssignment.exe
+C:\Users\sachin.saini\source\repos\LinqStringAssignment\LinqStringAssignment\bin\Debug\netcoreapp3.1\LinqStringAssignment.deps.json
+C:\Users\sachin.saini\source\repos\LinqStringAssignment\LinqStringAssignment\bin\Debug\netcoreapp3.1\LinqStringAssignment.runtimeconfig.json
+C:\Users\sachin.saini\source\repos\LinqStringAssignment\LinqStringAssignment\bin\Debug\netcoreapp3.1\LinqStringAssignment.runtimeconfig.dev.json
+C:\Users\sachin.saini\source\repos\LinqStringAssignment\LinqStringAssignment\bin\Debug\netcoreapp3.1\LinqStringAssignment.dll
+C:\Users\sachin.saini\source\repos\LinqStringAssignment\LinqStringAssignment\bin\Debug\netcoreapp3.1\LinqStringAssignment.pdb
+C:\Users\sachin.saini\source\repos\LinqStringAssignment\LinqStringAssignment\obj\Debug\netcoreapp3.1\LinqStringAssignment.dll
+C:\Users\sachin.saini\source\repos\LinqStringAssignment\LinqStringAssignment\obj\Debug\netcoreapp3.1\LinqStringAssignment.pdb
+C:\Users\sachin.saini\source\repos\LinqStringAssignment\LinqStringAssignment\obj\Debug\netcoreapp3.1\LinqStringAssignment.genruntimeconfig.cache

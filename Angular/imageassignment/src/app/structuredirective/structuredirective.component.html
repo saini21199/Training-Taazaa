@@ -1,0 +1,86 @@
+<br>
+<div class="container" style="align-items: center;">
+    <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Id
+                    </th>
+                    <th>
+                        Title
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                    <th>
+                        Expiry Date
+                    </th>
+                    <th>
+                        Quantity
+                    </th>
+                    <th>
+                        In Stock
+                    </th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr *ngFor="let p of products">
+                    <td>{{p.Id}}</td>
+                    <td>{{p.Title}}</td>
+                    <td>{{p.Price | currency : 'INR'}}</td>
+                    <td>{{p.ExpiryDate |date}}</td>
+                    <td>{{p.Quantity }}</td>
+    
+                    <td >
+                        <ng-container *ngIf="p.isInStock; then instock else outofstock">
+                        </ng-container>
+    
+                        <ng-template #instock>
+                            <i class="fas fa-check"></i>
+                        </ng-template>
+    
+                        <ng-template #outofstock>
+                            <i class="fas fa-times"></i>
+    
+                            <button class="btn btn-danger">Order Now</button>
+                        </ng-template>
+                    </td>
+                </tr>
+            </tbody>
+    
+        </table>
+    </div>
+</div>
+
+
+
+
+
+<!-- <mat-table class="lessons-table mat-elevation-z8" [dataSource]="products">
+
+    <ng-container matColumnDef="Id">
+        <mat-header-cell *matHeaderCellDef>ID</mat-header-cell>
+        <mat-cell *matCellDef="let lesson">{{products.Id}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="description">
+        <mat-header-cell *matHeaderCellDef>Description</mat-header-cell>
+        <mat-cell class="description-cell"
+                  *matCellDef="let lesson">{{lesson.description}}</mat-cell>
+
+    </ng-container>
+
+    <ng-container matColumnDef="duration">
+        <mat-header-cell *matHeaderCellDef>Duration</mat-header-cell>
+        <mat-cell class="duration-cell"
+                  *matCellDef="let lesson">{{lesson.duration}}</mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+
+    <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+
+</mat-table> -->
+

@@ -1,0 +1,37 @@
+<div style="width: 48%; float: right;">
+   <div class="row">
+      <table class="table">
+         <thead>
+            <tr>
+               <th>
+                  Id
+               </th>
+               <th>
+                  Title
+               </th>
+               <th>
+                  Price
+               </th>
+               <th>
+                  Expiry Date
+               </th>
+               <th>
+                  Quantity
+               </th>
+               <th>
+                  In Stock
+               </th>
+            </tr>
+         </thead>
+
+         <tbody>
+            <td>{{products.Id}}</td>
+            <td>{{products.Title}}</td>
+            <td>{{products.Price | currency : 'INR'}}</td>
+            <td>{{products.ExpiryDate}}</td>
+            <td>{{products.Quantity }}</td>
+            <td>{{products.isInStock}}</td>
+         </tbody>
+      </table>
+   </div>
+</div>

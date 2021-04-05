@@ -1,0 +1,13 @@
+C:\Users\sachin.saini\source\repos\Linqexpression\Linqexpression\bin\Debug\netcoreapp3.1\Linqexpression.exe
+C:\Users\sachin.saini\source\repos\Linqexpression\Linqexpression\bin\Debug\netcoreapp3.1\Linqexpression.deps.json
+C:\Users\sachin.saini\source\repos\Linqexpression\Linqexpression\bin\Debug\netcoreapp3.1\Linqexpression.runtimeconfig.json
+C:\Users\sachin.saini\source\repos\Linqexpression\Linqexpression\bin\Debug\netcoreapp3.1\Linqexpression.runtimeconfig.dev.json
+C:\Users\sachin.saini\source\repos\Linqexpression\Linqexpression\bin\Debug\netcoreapp3.1\Linqexpression.dll
+C:\Users\sachin.saini\source\repos\Linqexpression\Linqexpression\bin\Debug\netcoreapp3.1\Linqexpression.pdb
+C:\Users\sachin.saini\source\repos\Linqexpression\Linqexpression\obj\Debug\netcoreapp3.1\Linqexpression.csprojAssemblyReference.cache
+C:\Users\sachin.saini\source\repos\Linqexpression\Linqexpression\obj\Debug\netcoreapp3.1\Linqexpression.AssemblyInfoInputs.cache
+C:\Users\sachin.saini\source\repos\Linqexpression\Linqexpression\obj\Debug\netcoreapp3.1\Linqexpression.AssemblyInfo.cs
+C:\Users\sachin.saini\source\repos\Linqexpression\Linqexpression\obj\Debug\netcoreapp3.1\Linqexpression.csproj.CoreCompileInputs.cache
+C:\Users\sachin.saini\source\repos\Linqexpression\Linqexpression\obj\Debug\netcoreapp3.1\Linqexpression.dll
+C:\Users\sachin.saini\source\repos\Linqexpression\Linqexpression\obj\Debug\netcoreapp3.1\Linqexpression.pdb
+C:\Users\sachin.saini\source\repos\Linqexpression\Linqexpression\obj\Debug\netcoreapp3.1\Linqexpression.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\sachin.saini\source\repos\ManagerAgent\ManagerAgent\obj\Debug\netcoreapp3.1\ManagerAgent.csprojAssemblyReference.cache
+C:\Users\sachin.saini\source\repos\ManagerAgent\ManagerAgent\obj\Debug\netcoreapp3.1\ManagerAgent.AssemblyInfoInputs.cache
+C:\Users\sachin.saini\source\repos\ManagerAgent\ManagerAgent\obj\Debug\netcoreapp3.1\ManagerAgent.AssemblyInfo.cs
+C:\Users\sachin.saini\source\repos\ManagerAgent\ManagerAgent\obj\Debug\netcoreapp3.1\ManagerAgent.csproj.CoreCompileInputs.cache
+C:\Users\sachin.saini\source\repos\ManagerAgent\ManagerAgent\bin\Debug\netcoreapp3.1\ManagerAgent.exe
+C:\Users\sachin.saini\source\repos\ManagerAgent\ManagerAgent\bin\Debug\netcoreapp3.1\ManagerAgent.deps.json
+C:\Users\sachin.saini\source\repos\ManagerAgent\ManagerAgent\bin\Debug\netcoreapp3.1\ManagerAgent.runtimeconfig.json
+C:\Users\sachin.saini\source\repos\ManagerAgent\ManagerAgent\bin\Debug\netcoreapp3.1\ManagerAgent.runtimeconfig.dev.json
+C:\Users\sachin.saini\source\repos\ManagerAgent\ManagerAgent\bin\Debug\netcoreapp3.1\ManagerAgent.dll
+C:\Users\sachin.saini\source\repos\ManagerAgent\ManagerAgent\bin\Debug\netcoreapp3.1\ManagerAgent.pdb
+C:\Users\sachin.saini\source\repos\ManagerAgent\ManagerAgent\obj\Debug\netcoreapp3.1\ManagerAgent.dll
+C:\Users\sachin.saini\source\repos\ManagerAgent\ManagerAgent\obj\Debug\netcoreapp3.1\ManagerAgent.pdb
+C:\Users\sachin.saini\source\repos\ManagerAgent\ManagerAgent\obj\Debug\netcoreapp3.1\ManagerAgent.genruntimeconfig.cache
