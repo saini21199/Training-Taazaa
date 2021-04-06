@@ -1,5 +1,5 @@
 import { ErrorHandler, NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -18,6 +18,9 @@ import { CustomAttributeDirectiveComponent } from './custom-attribute-directive/
 import { HomeComponent } from './home/home.component';
 import { ErrorHandlerComponent } from './error-handler/error-handler.component';
 import { MyerrorhandlerService } from './myerrorhandler.service';
+import { FormComponent } from './form/form.component';
+import { ProductSearchPipe } from './product-search.pipe';
+import { ProductPipePipe } from './product-pipe.pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +34,9 @@ import { MyerrorhandlerService } from './myerrorhandler.service';
     CustomAttributeDirectiveComponent,
     HomeComponent,
     ErrorHandlerComponent,
+    FormComponent,
+    ProductSearchPipe,
+    ProductPipePipe,
 
   ],
   imports: [
@@ -39,7 +45,8 @@ import { MyerrorhandlerService } from './myerrorhandler.service';
     BrowserAnimationsModule,
     MatExpansionModule,
     AppRoutingModule,
-    MatTableModule
+    MatTableModule,
+    ReactiveFormsModule
   ],
   providers: [{provide:ErrorHandler,useClass:MyerrorhandlerService}],
   bootstrap: [AppComponent]

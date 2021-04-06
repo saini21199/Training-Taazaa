@@ -9,12 +9,12 @@ import { Product } from './Iproduct';
 export class StructuredirectiveComponent implements OnInit {
 
   products: Product[] = [];
-
+  search: string = '';
+  price : number;
   
   constructor(private dataservice:DataserviceService) { }
 
   ngOnInit(): void {
     this.products = this.dataservice.getProducts();
-    
   }
 }

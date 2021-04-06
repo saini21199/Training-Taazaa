@@ -1,5 +1,23 @@
 <br>
+
+
+
 <div class="container" style="align-items: center;">
+
+    
+
+    <div class="row"> 
+        <label>Enter Title</label>
+        <br>
+        <input type="text" [(ngModel)] ='search' class="form-control my-3">
+        <br>
+        <label>Enter Price</label>
+        <br>
+        <input type="text" [(ngModel)] ='price' class="form-control my-3">
+    </div>
+    <br>
+
+    <h1>FILTERED DATA </h1>
     <div class="row">
         <table class="table">
             <thead>
@@ -26,7 +44,7 @@
             </thead>
     
             <tbody>
-                <tr *ngFor="let p of products">
+                <tr *ngFor="let p of products | productSearch : search | productPipe : price">
                     <td>{{p.Id}}</td>
                     <td>{{p.Title}}</td>
                     <td>{{p.Price | currency : 'INR'}}</td>
@@ -52,6 +70,13 @@
     
         </table>
     </div>
+    <div style="height: 240px;"></div>
+    <footer class="page-footer font-small blue">
+        <div class="footer-copyright text-center py-3" style="color: grey;">
+            <h5>Explanation :</h5>
+            This Demo is implemented with the help of Structure directive and Pipes.
+        </div>
+    </footer>
 </div>
 
 

@@ -24,4 +24,11 @@ export class SenddataService {
   setPrice(price :number){
     this.product.Price = price;
   }
+
+  updateProduct (p: Product){
+    this.product ={
+      ...p
+    }
+    this.product$.next(this.product);
+  }
 }

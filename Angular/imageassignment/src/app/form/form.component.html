@@ -1,0 +1,60 @@
+<div class="container">
+    <br>
+    <div>
+        <form (ngSubmit)='login()' [formGroup]='loginForm' novalidate class="form">
+            <label for="exampleInputEmail1">Email address</label>
+            <input formControlName='email' class="form-control form-control-lg" placeholder="Enter Email" type="text">
+            <br>
+            <div class="alert alert-danger"
+                *ngIf="loginForm?.get('email')?.hasError('required') && loginForm?.get('email')?.touched">
+                Email is Required
+            </div>
+            <label for="exampleInputPassword1">Password</label>
+            <input formControlName='password' class="form-control form-control-lg" placeholder="Enter Password"
+                type="password">
+            <br>
+            <div class="alert alert-danger"
+                *ngIf="loginForm?.get('password')?.invalid && loginForm?.get('password')?.touched">
+                Password is Required and length should be more than 4 characters
+            </div>
+
+            <label for="exampleInputPassword1">Age</label>
+            <input formControlName='age' class="form-control form-control-lg" placeholder="Enter Age" type="number">
+            <br>
+            <div class="alert alert-danger"
+                *ngIf="loginForm?.get('age')?.dirty && loginForm?.get('age')?.errors && loginForm?.get('age')?.touched ">
+                Age should be in between {{min}} and {{max}}
+            </div>
+
+            <label for="exampleInputPassword1">Phone Number</label>
+            <input formControlName='phonenumber' class="form-control form-control-lg" placeholder="Enter Phone Number"
+                type="number">
+            <br>
+            <div class="alert alert-danger"
+                *ngIf="loginForm?.get('phonenumber')?.hasError('required') && loginForm?.get('phonenumber')?.touched ">
+                Phone Number is required
+            </div>
+
+            <label for="exampleInputPassword1">Send Notification</label>
+            <br>
+
+            <label class="radio-inline">
+                <input type="radio" value='email' formControlName="notification">Email
+            </label>
+
+            <br>
+
+            <label class="radio-inline">
+                <input type="radio" value='phone' formControlName="notification">Phone
+            </label>
+
+            <div>
+                <button [disabled]='loginForm.invalid' class="btn btn-primary mb-2">Login</button>
+                
+            
+                <button (click)='cancel()' class="btn btn-danger mb-2">Reset</button>
+        
+            </div>
+        </form>
+    </div>
+</div>
