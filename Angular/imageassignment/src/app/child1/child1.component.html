@@ -11,8 +11,13 @@
 
             <input formControlName='Title' class="form-control form-control-lg" type="text">
             <br>
+
             <input formControlName='Price' class="form-control form-control-lg" type="text">
-            
+            <div class="alert alert-danger"
+                *ngIf="productEditForm?.get('Price')?.dirty && productEditForm?.get('Price')?.errors && productEditForm?.get('Price')?.touched ">
+                Price should be in between {{min}} and {{max}}
+            </div>
+
             <br>
             <input formControlName='ExpiryDate' class="form-control form-control-lg" type="text">
 
