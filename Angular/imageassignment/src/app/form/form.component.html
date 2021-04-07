@@ -38,6 +38,7 @@
             <label for="exampleInputPassword1">Send Notification</label>
             <br>
 
+            <div>
             <label class="radio-inline">
                 <input type="radio" value='email' formControlName="notification">Email
             </label>
@@ -47,13 +48,15 @@
             <label class="radio-inline">
                 <input type="radio" value='phone' formControlName="notification">Phone
             </label>
-
+        </div>
             <div>
+
+                <div style="float: left;">
                 <button [disabled]='loginForm.invalid' class="btn btn-primary mb-2">Login</button>
-                
-            
+            </div>
+            <div style="float: right;">
                 <button (click)='cancel()' class="btn btn-danger mb-2">Reset</button>
-        
+            </div>
             </div>
         </form>
     </div>
