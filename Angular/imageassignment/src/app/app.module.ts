@@ -23,6 +23,8 @@ import { ProductSearchPipe } from './product-search.pipe';
 import { ProductPipePipe } from './product-pipe.pipe';
 import { SubjectComponent } from './subject/subject.component';
 import { AsyncComponent } from './async/async.component';
+import { RelayComponent } from './relay/relay.component';
+import { BehaviourComponent } from './behaviour/behaviour.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +43,8 @@ import { AsyncComponent } from './async/async.component';
     ProductPipePipe,
     SubjectComponent,
     AsyncComponent,
-
+    RelayComponent,
+    BehaviourComponent
   ],
   imports: [
     BrowserModule,

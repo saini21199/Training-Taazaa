@@ -9,7 +9,7 @@ import { ReplayService } from '../replay.service';
 })
 export class RelayComponent implements OnInit, OnDestroy {
 
-  title = 'RxJS Subjects Demo';
+  title = 'RxJS Replay Subject Demo';
   observer1$: Subscription;
   observer2$: Subscription;
   observer3$: Subscription;

@@ -1,1 +1,41 @@
-<p>behaviour works!</p>
+<div class="container">
+
+    <br>
+    <h2 style="text-align: center;">{{title}}</h2>
+    <br>
+  
+    <div class="row">
+      <div class="col md-4">
+        <button class="btn btn-primary" (click)='subscribe1()'>Subscriber 1 </button>
+        <hr />
+        <div *ngFor="let p of observer1">
+          <p class="data1"> {{p}}</p>
+        </div>
+        <div *ngIf="showObserver1">
+          complete
+        </div>
+      </div>
+      <div class="col md-4">
+        <button class="btn btn-primary" (click)='susbcribe2()'>Subscriber 2 </button>
+        <hr />
+        <div *ngFor="let p of observer2">
+          <p class="data2"> {{p}}</p>
+        </div>
+        <div *ngIf="showObserver2">
+          complete
+        </div>
+      </div>
+      <div class="col md-4">
+        <button class="btn btn-primary" (click)='susbcribe3()'>Subscriber 3 </button>
+        <hr />
+        <div *ngFor="let p of observer3">
+          <p class="data3"> {{p}}</p>
+        </div>
+        <div *ngIf="showObserver3">
+          complete
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>

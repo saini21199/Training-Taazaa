@@ -16,5 +16,6 @@ export class StructuredirectiveComponent implements OnInit {
 
   ngOnInit(): void {
     this.products = this.dataservice.getProducts();
+    console.log(this.products);
   }
 }
