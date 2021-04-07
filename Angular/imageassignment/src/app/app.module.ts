@@ -1,7 +1,7 @@
 import { ErrorHandler, NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { CommonModule } from '@angular/common';  
 import { AppComponent } from './app.component';
 import { ImageComponent } from './image/image.component';
 import { StructuredirectiveComponent } from './structuredirective/structuredirective.component';
@@ -12,7 +12,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { AppRoutingModule } from './app-routing.module';
 import { Child1Component } from './child1/child1.component';
 import { Child2Component } from './child2/child2.component';
-import {MatTableModule} from '@angular/material/table';
+import { MatTableModule } from '@angular/material/table';
 import { AttributeDirectiveDirective } from './attribute-directive.directive';
 import { CustomAttributeDirectiveComponent } from './custom-attribute-directive/custom-attribute-directive.component';
 import { HomeComponent } from './home/home.component';
@@ -21,6 +21,8 @@ import { MyerrorhandlerService } from './myerrorhandler.service';
 import { FormComponent } from './form/form.component';
 import { ProductSearchPipe } from './product-search.pipe';
 import { ProductPipePipe } from './product-pipe.pipe';
+import { SubjectComponent } from './subject/subject.component';
+import { AsyncComponent } from './async/async.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +39,8 @@ import { ProductPipePipe } from './product-pipe.pipe';
     FormComponent,
     ProductSearchPipe,
     ProductPipePipe,
+    SubjectComponent,
+    AsyncComponent,
 
   ],
   imports: [
@@ -46,9 +50,10 @@ import { ProductPipePipe } from './product-pipe.pipe';
     MatExpansionModule,
     AppRoutingModule,
     MatTableModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CommonModule
   ],
-  providers: [{provide:ErrorHandler,useClass:MyerrorhandlerService}],
+  providers: [{ provide: ErrorHandler, useClass: MyerrorhandlerService }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -11,7 +11,7 @@ export class StructuredirectiveComponent implements OnInit {
   products: Product[] = [];
   search: string = '';
   price : number;
-  
+  displayedColumns: string[] = ['ID', 'Name', 'Price',  'Expiry Date','Quantity', 'InStock'];
   constructor(private dataservice:DataserviceService) { }
 
   ngOnInit(): void {

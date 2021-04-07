@@ -1,0 +1,36 @@
+<h2>{{title}}</h2>
+
+<div class="wrapper">
+  <div>
+    <button (click)='subscribe1()'>Subscriber 1 </button>
+    <hr />
+    <div *ngFor="let p of observer1">
+      <p class="data1"> {{p}}</p>
+    </div>
+    <div *ngIf="showObserver1">
+      complete
+    </div>
+  </div>
+  <div>
+    <button (click)='susbcribe2()'>Subscriber 2 </button>
+    <hr />
+    <div *ngFor="let p of observer2">
+      <p class="data2"> {{p}}</p>
+    </div>
+    <div *ngIf="showObserver2">
+      complete
+    </div>
+  </div>
+  <div>
+    <button (click)='susbcribe3()'>Subscriber 3 </button>
+    <hr />
+    <div *ngFor="let p of observer3">
+      <p class="data3"> {{p}}</p>
+    </div>
+    <div *ngIf="showObserver3">
+      complete
+    </div>
+  </div>
+
+
+</div>
